@@ -1,0 +1,30 @@
+A majority of the files in the bayesWatch package are copyright Alexander C. Murph under the following license: 
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+//     Copyright (C) 2023  Alexander C. Murph                                                      |
+//                                                                                                 |
+//                                                                                                 |
+//     bayesWatch is free software: you can redistribute it and/or modify it under                 |
+//     the terms of the GNU General Public License as published by the Free                        |
+//     Software Foundation; see <https://cran.r-project.org/web/licenses/GPL-3>.                   |
+//                                                                                                 |
+//     Maintainer: Alexander C. Murph <murph290@gmail.com>                                         |
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+
+bayesWatch modifies and uses source code from the BDgraph package.  This code is protected under the GNU General Public License:
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+//     Copyright (C) 2012 - 2020  Reza Mohammadi                                                   |
+//                                                                                                 |
+//     This file is part of BDgraph package.                                                       |
+//                                                                                                 |
+//     BDgraph is free software: you can redistribute it and/or modify it under                    |
+//     the terms of the GNU General Public License as published by the Free                        |
+//     Software Foundation; see <https://cran.r-project.org/web/licenses/GPL-3>.                   |
+//                                                                                                 |
+//     Maintainer: Reza Mohammadi <a.mohammadi@uva.nl>                                             |
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+
+This license is copied in each file that uses any amount of code from this package.  These files are   copula.cpp/.h, util.h, matrix.cpp/.h, rgwish.cpp.
+
+bayesWatch modifies and uses source code released in the supplementary material of the paper "Computational Aspects Related to Inference in Gaussian Graphical Models With the G-Wishart Prior." by Alex Lenkoski and Adrian Dobra.  This code was used for this package, and placed until the GNU license, by direct permission from the authors.  The files that use this code are newgraph.cpp, graph.h, gwish.cpp.  This note has been placed in each of these files.

@@ -1,0 +1,12 @@
+## R package reference generated from DESCRIPTION metadata
+citation(auto = meta)
+
+## NLME book
+bibentry(bibtype = "Unpublished",
+         title = "Bayes Watch: Bayesian Change-point Detection for Process Monitoring with Fault Detection.",
+         author = c(person(c("Alexander", "C."), "Murph"),
+                    person(c("Curtis", "B."), "Storlie"),
+		   person(c("Patrick", "M."), "Wilson"),
+		   person(c("Jonathan", "P."), "Williams"),
+		   person("Jan", "Hannig")),
+         year = "2023", url = "https://arxiv.org/abs/2310.02940", note = "In review.")
