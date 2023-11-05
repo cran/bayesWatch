@@ -14,7 +14,7 @@
 #define UTIL_H
 
 #ifdef _OPENMP
-    #include <omp.h>
+//    #include <omp.h>
 #endif
 
 #define USE_FC_LEN_T  // For Fortran character strings

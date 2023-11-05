@@ -1,4 +1,3 @@
-// #include <omp.h>
 #include <math.h>
 #include <RcppArmadillo.h>
 #include <boost/math/special_functions/erf.hpp>
