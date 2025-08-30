@@ -130,6 +130,13 @@ Main method of package.  MCMC sampling for change-point probabilities with fault
 according to the model by Murph et al. 2023.  Creates a bayesWatch object for analysis of change-points.
 }
 \examples{
+data("full_data", package = "bayesWatch")
+head(full_data)
+data("day_of_observations", package = "bayesWatch")
+head(day_of_observations)
+data("day_dts", package = "bayesWatch")
+head(day_dts)
+
 \donttest{
 library(bayesWatch)
 data("full_data")

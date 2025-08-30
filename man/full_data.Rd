@@ -9,13 +9,6 @@
 \format{
 `full_data` is a matrix, the latter two are vectors.
 }
-\usage{
-full_data
-
-day_of_observations
-
-day_dts
-}
 \description{
 Data simulated using the BDgraph package.  A change-point is imposed between days 5
 and 6.  The change only occurs in variables 3 and 4.
@@ -26,8 +19,11 @@ and 6.  The change only occurs in variables 3 and 4.
 `day_dts`; is a vector of unique elements from `day_of_observations`..
 }
 \examples{
-full_data
-day_of_observations
-day_dts
+data("full_data", package = "bayesWatch")
+head(full_data)
+data("day_of_observations", package = "bayesWatch")
+head(day_of_observations)
+data("day_dts", package = "bayesWatch")
+head(day_dts)
 }
 \keyword{datasets}

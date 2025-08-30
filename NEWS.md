@@ -1,2 +1,2 @@
-# bayesWatch 0.1.0
-First release!
+# bayesWatch 0.1.4
+Minor updates required by CRAN

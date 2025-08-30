@@ -135,7 +135,7 @@ extern "C" {
     for( j = 1; j < dim; j++ ) {
       for( i = 0; i < j; i++ ) {
         ij = g_prior[ j * dim + i ];
-        if( ( ij != 0.0 ) or ( ij != 1.0 ) )
+        if( ( ij != 0.0 ) )
         {
           index_row[ counter ] = i;
           index_col[ counter ] = j;
